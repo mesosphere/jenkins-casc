@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.194-alpine
+FROM jenkins/jenkins:2.195-alpine
 
 RUN /usr/local/bin/install-plugins.sh \
     ant:1.10 \
