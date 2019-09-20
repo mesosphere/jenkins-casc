@@ -11,18 +11,21 @@ RUN /usr/local/bin/install-plugins.sh \
     credentials-binding:1.20 \
     email-ext:2.66 \
     git:3.12.1 \
-    github-branch-source:2.5.6 \
+    git-client: 2.8.6 \
+    github-branch-source:2.5.7 \
     gradle:1.34 \
-    kubernetes:1.18.3 \
+    kubernetes:1.19.0 \
+    kubernetes-continuous-deploy:2.1.2 \
     ldap:1.20 \
-    mailer:1.26 \
+    mailer:1.28 \
     matrix-auth:2.4.2 \
     pam-auth:1.5.1 \
     pipeline-github-lib:1.0 \
     pipeline-stage-view:2.12 \
     prometheus:2.0.6 \
     role-strategy:2.13 \
-    ssh-slaves:1.30.1 \
+    script-security: 1.64 \
+    ssh-slaves:1.30.2 \
     timestamper:1.10 \
     workflow-aggregator:2.6 \
     ws-cleanup:0.37
